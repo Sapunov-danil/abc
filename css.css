@@ -1,0 +1,747 @@
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Open_Sans;
+    src: url(fonts/Open_Sans/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+header .conteiner{
+    margin-top: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background: url(img/Rectangle\ 2.png) center no-repeat;
+    background-size: cover;
+}
+.nav li {
+    list-style-type: none;
+}
+.conteiner {
+    width: 1110px;
+    margin: 0 auto;
+}
+header .flex {
+    background: url(img/Rectangle.png);
+    height: 80px;
+}
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 10px
+}
+.flex .conteiner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav {
+    justify-content: space-between ;
+    display: flex;
+}
+.nav {
+    gap: 40px;
+    margin-left: 548px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: Open_Sans;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+.p{
+    font-size: 16px;
+    color: white;
+    margin-left: 37%;
+    margin-top: 40px;
+    font-family: Open_Sans;
+}
+.button {
+    margin-left: 37%;
+}
+.conteiner {
+    width: 1110px;
+    margin: 0 auto;
+}
+/* text */
+h1 {
+    color: white;
+    font-family: Oswald;
+    font-weight: normal;
+}
+.stroka {
+    height: 55px;
+    display: flex;
+    margin-top: 150PX;
+    justify-content: space-between;
+}
+h2 {
+    font-family: Oswald;
+}
+.h2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.h2_decor {
+    width: 100px;
+    height: 17px;
+    background: url("img/decor-heading.png");
+}
+.proekt {
+    font-size: 30px;
+}
+p {
+    font-family: Open_Sans;
+}
+
+
+/* sectionstart start */
+.sectionstart{
+    background: url(img/Rectangle\ 3.png) no-repeat left;
+    margin-left: 405px;
+    padding-bottom: 201px;
+}
+.sectionstart_text {
+    padding-top: 202px;
+    padding-left: 190px;
+}
+h1 {
+    font-size: 48px;
+}
+.sectionstart p {
+    color: white;
+    padding-top: 40px;
+    font-weight: 100;
+}
+
+button {
+    background: none;
+    border-radius: 1px solid white;
+    color: white;
+    height: 51px;
+    width: 160px;
+    margin-top:40px ;
+    border-color: white ;
+    font-family:Open_Sans ;
+    font-size: 16px;
+}
+/* sectionstart end */
+
+
+/* наши проекты */
+.photos{
+    display: flex;
+    gap: 30px;
+}
+.photo {
+    position: relative;
+    width: 540px;
+    height: 400px;
+    margin-top: 65px;
+}
+.photo-text {
+    position: absolute;
+    bottom: 20px;
+    background: white;
+    right: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 110px;
+}
+.photo1 {
+    background: url(img/1jpg.png);
+}
+.photo2 {
+    background: url(img/2jpg.png);
+}
+h3 {
+    font-size: 18px;
+    font-family: Oswald;
+    color: black;
+    font-weight: 400;
+}
+.cck{
+    font-family: Open_Sans;
+    font-size: 14px;
+    color: black;
+    line-height: 19.07px;
+    padding-top:14px ;
+    font-weight: 100;
+}
+
+
+/* каталог продукции */
+.stroka3{
+    height: 41px;
+    padding-top: 70px;
+    padding-left: 455px;
+}
+.robe {
+    width: 211px;
+    display: flex;
+    gap: 30px;
+    margin: 5px 0;
+}
+.robe a {
+    color: black;
+    font-family: Oswald;
+    font-size: 24px;
+}
+.robe a:hover {
+    color: #005BC1;
+    border-bottom: 3px solid #005BC1;
+}
+.photo-text2{
+    position: absolute;
+    bottom: 20px;
+    background: #005BC1;
+    right: 0;
+    padding: 15px 36px 15px 21px;
+    color: white;
+    font-family: Oswald;
+    width: 256px;
+    height: 86px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.68px;
+    display: flex;
+    align-items: center;
+    border: 3px solid #005BC1;
+}
+.pht {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+.insert {
+    padding-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+.pht1 {
+    background: url(img/3jpg.png);
+}
+.pht2 {
+    background: url(img/catelog__item\ \(1\).png);
+}
+.pht3 {
+    background: url(img/catelog__item\ \(3\).png);
+}
+
+
+
+
+/* АРЕНДА ОБОРУДОВАНИЯ */
+.pipec {
+    padding-top: 150px;
+    font-size: 18px;
+    font-family: Open_Sans;
+    font-weight: 100;
+}
+.nice  {
+    background-size: cover; /* Заполнение контейнера */
+    background-position: center; /* Центрирование изображения */
+    border: 3px solid #005BC1;
+    width: 665px;
+    margin-left: 95px;
+    margin-top: 40px;
+    padding: 30px;
+    position: relative;
+}
+.slider1 {
+    display: flex;
+    width: 655px;
+    height: 300px;
+}
+
+
+.opana {
+    display: flex;
+}
+.flexsapuna{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow_blue{
+    display: flex;    
+}
+.arrow_blue button {
+    color: #005BC1;
+    width: max-content;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #005BC1;
+}
+.flex2 {
+    margin-top: 20px;
+}
+.new {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 200;
+}
+#sliderImage {
+
+}
+.pop {
+    margin-top: 29px;
+    padding-left: 20px;
+    font-family: Oswald ;
+    font-size: 16px;
+}
+.qwer{
+    font-family: Open_Sans;
+    font-size: 14px;
+    list-style-type: disc;
+    padding: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+/* НОВОСТИ */
+.newimg{
+    background: url(img/Rectangle\ 4\ \(3\).png);
+    width: 190px;
+    height: 51px;
+    text-align: center;
+    font-family: Open_Sans;
+    font-family: 16px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    color: white;
+}
+.class1{
+    margin-top: 70px;   
+    display: flex;
+    width: 540;
+    height: 242px;
+    gap: 30px;
+}
+.name_data{ 
+    display: flex;
+}
+.name1{
+    font-family: Oswald;
+    font-size: 18px;
+    display: flex;
+    gap: 60px;
+    letter-spacing: 1px;
+    
+}
+.martxt{
+    margin-top: 42px;
+    font-family: Open_Sans;
+    font-weight: 200;
+    color: gray;
+    font-size: 14px;
+}
+.martxt2 a{
+    color: black;
+}
+.date1{
+    font-family: Open_Sans;
+    font-size: 14px;
+    color: gray;
+    padding-top: 4px;
+}
+.martxt2{
+    margin-top: 21px;
+    font-family: Open_Sans;
+    text-decoration:underline ;
+}
+.class2{
+    width: 225px;
+    height: 242px;
+    float: left;
+}
+.name2 {
+    font-family: Oswald;
+    font-size: 18px;
+}
+.Text45{
+    padding-top: 20px;
+    font-family: Open_Sans;
+    font-size: 14px;
+    font-weight: 100;
+}
+.img99{
+    padding-top: 20px;
+    display: flex;
+}
+.date2 {
+    padding-top: 96px;
+    padding-left: 25px;
+    font-family: Open_Sans;
+    font-size: 14px;
+    color: gray;
+}
+.class33{
+    width: 235px;
+    height: 242px;
+
+}
+.name3{
+    font-family: Oswald;
+    font-size: 18px;
+}
+.Text46{
+    font-size: 14px;
+    font-family: Open_Sans;
+    padding-top: 14px;
+}
+.img88{
+    padding-top: 20px;
+    display: flex;
+}
+.date22{
+    padding-top: 96px;
+    padding-left: 25px;
+    font-family: Open_Sans;
+    font-size: 14px;
+    color: gray;
+}
+footer {
+    background-color: blue;
+    margin-top: 120px;
+    height: 255px; 
+}
+.box1{
+    width: 1111px;
+    height: 27px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.tex1{
+    display: flex;
+    margin: 0 auto;
+    color: wheat;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.op1 {
+    font-family: Oswald;
+    font-size: 18px;
+}
+.op2 {
+    font-family: Open_Sans;
+    font-size: 14px;
+}
+.op3{
+    font-family: Open_Sans;
+    font-size: 14px;
+}
+.imgg{
+    margin: 0 auto;
+    width: 1110px;
+    margin-top: 60px;
+}
+.box2{
+    width: 551px;
+    height: 48px;
+    display: flex;
+    margin: 0 auto;
+    gap: 110px;
+    position: relative;
+    margin-right: 680px ;
+    padding-top: 20px;
+}
+.col1{
+    color: white;
+    font-weight: 100;
+    font-family: Open_Sans;
+    font-size: 14px;
+}
+.col11 {
+    padding-top: 10px;
+}
+.col2{
+    color: white;
+    font-weight: 100;
+    font-family: Open_Sans;
+    font-size: 14px;
+}
+.col22{
+    padding-top: 10px;
+}
+.col3{
+    color: white;
+    font-weight: 100;
+    font-family: Open_Sans;
+    font-size: 14px;
+}
+.col33 {
+    padding-top: 10px;
+}
+.imgg2 {
+    margin: 0 auto;
+    width: 1110px;
+    margin-top: 60px;
+}
+.box3 {
+    width: 1110px;
+    height: 19px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.lastStok {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.trans{
+    font-family: Open_Sans;
+    font-size: 14px;
+    font-weight: 100;
+}
+.razrab {
+    font-family: Open_Sans;
+    font-size: 14px;
+    font-weight: 100;
+}
+.hamburger {
+    cursor: pointer;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px 6px);
+}
+.active .line:nth-child(2){
+    opacity: 0;
+}
+.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px 6px);   
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+    header{
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .sectionstart{
+        width: 100%;
+        margin: 0 ;
+    }
+    h1 {
+        padding: 0;
+        font-size: 25px;
+    }
+    .sectionstart p {
+        font-size: 13px;
+        padding-top: 20px;
+    }
+    .sectionstart button {
+        margin: 0;
+        margin-top: 24px;
+    }
+    .sectionstart_text {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    main {
+        width: 100%;
+    }
+    .conteiner {
+        width: 100%;
+    }
+    .stroka {
+        width: 100%;
+    }
+    .srok {
+        width: 75%;
+    }
+    .proekt {
+        width: 100%;
+        padding: 0;
+        padding-top: 16px;
+        font-size: 20px;
+        padding-left: 3px;
+
+    }
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photo2 {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .stroka3{
+        width: 70%;
+        padding-left: 80px;
+        margin-left: 26px;
+    }
+    .insert {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .pht1 {
+        margin-left: 13px;
+    }
+    .pht2{
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 13px;
+    }
+    .pht3{
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 13px;
+    }
+    .opana {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pipec {
+        padding: 0;
+        padding-left: 13px;
+        padding-top: 30px;
+    }
+   
+    .class1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 76px;
+    }
+    .name1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nice {
+        margin: 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .flexsapuna {
+        display: flex;
+        flex-wrap:wrap ;
+        margin-bottom: 50px;
+    }
+    .new {
+        padding: 0;
+        font-size: 12px;
+    }
+    .arrow_blue {
+        padding: 0;
+    }
+    .pop {
+      width: 100px ;
+      padding: 0; 
+      font-size: 14px;
+      margin-left: 30px;
+    }
+    .qwer {
+        padding: 0;
+        font-size: 8px;
+        padding-top: 5px;
+        padding-left: 28px;
+    }
+    .pop {
+        font-size: 13px;
+    }
+    .stroka5 {
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 19px;
+        padding: 0;
+        margin: 0;
+    }
+    .footer {
+        margin-top: 900px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .class1 {
+        width: 380px;
+    }
+    .box1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0px;
+    }
+    .op1{
+        font-size: 12px;
+    }
+    .op2 {
+        font-size:  12px;
+
+    }
+    .op3 {
+        font-size: 12px;
+    }
+    .newimg {
+        padding-left: 10px;
+    }
+    .imgg{
+        padding: 0;
+        margin-top: 40px;
+    }
+    .col1 {
+        font-size: 12px;
+    }
+    .col2 {
+        font-size: 12px;
+    }
+    .col3 {
+        font-size: 12px;
+    }
+    .hamburger {
+        cursor: pointer;
+        display: block;
+        margin:  auto 10px;
+        margin-right: 20px;
+        z-index: 2;
+    }
+    .show-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #005BC1;
+        width: 100%;
+        
+    }
+    header nav {
+        display: none;
+    }
+    .nav {
+        gap: 10px;
+        margin: 0;
+    }
+    .trans {
+        font-size: 12px;
+    }
+    .razrab {
+        font-size: 12px;
+    }
+    .tex1 {
+        display: block;
+    }
+    .slider1 {
+        width: 200px;
+        height: 200px;
+    }
+}
